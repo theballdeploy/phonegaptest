@@ -1,0 +1,19 @@
+1.<!DOCTYPE HTML>  
+2.<html>  
+3.  <head>  
+4.    <meta name="viewport" content="width=320; user-scalable=no" />  
+5.    <meta http-equiv="Content-type" content="text/html; charset=utf-8">  
+6.    <title>PhoneGap Build App</title>  
+7.              <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>  
+8.              <script type="text/javascript" charset="utf-8">  
+9.                        var showMessageBox = function() {  
+10.                             navigator.notification.alert("Hello World of PhoneGap");  
+11.                        }  
+12.                        function init(){  
+13.                             document.addEventListener("deviceready", showMessageBox, true);  
+14.                        }  
+15.  </script>  
+16.  </head>  
+17.  <body onload="init();"  >  
+18.  </body>  
+19.</html>  
